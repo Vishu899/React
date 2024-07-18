@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div class="root">
+      <h3>I'm first</h3>
+    </div>
+
+    <div class="root"></div> -->
+
+    <!-- the content already present inside the root element is COMPLETELY REPLACED by the REACT ELEMENT while rendering.. -->
+    <div id="root">
+      <h3>I'm First Rendered!</h3>
+    </div>
+
+    <div id="root"></div>
+
+    <!-- this is the react core development code -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- this is the react code used for dom manipulations -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="./App.js"></script>
+
+    <!-- the ORDER OF FILES should be SAME as Above in react rendering.. -->
+  </body>
+</html>
